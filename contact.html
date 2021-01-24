@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- fontawesome, favicon and styles -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="shortcut icon"
+			href="../dist/IMG/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+		<title>m. WebDev | Welcome</title>
+		<link rel="stylesheet" href="../dist/CSS/main.css" />
+	</head>
+	<body>
+		<!-- Navbar -->
+		<div class="navbar">
+			<div class="container flex">
+				<a href="index.html">
+					<img src="../dist/IMG/logo-no-bg.png" class="img-logo" alt="" />
+				</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html" class="current">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<!-- Section: Contact -->
+
+		<section class="contact text-center py-3">
+			<div class="container">
+				<h2>Contact Me</h2>
+				<div class="bottom-line"></div>
+				<p class="py-2">Here Is How <b>You</b> Can Reach Me</p>
+				<form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+					<div class="text-fields">
+						<input
+							type="text"
+							class="text-input name-input"
+							placeholder="Name"
+							name="name"
+						/>
+						<input
+							type="text"
+							class="text-input subject-input"
+							placeholder="Subject"
+							name="subject"
+						/>
+						<input
+							type="email"
+							class="text-input email-input"
+							placeholder="Email"
+							name="subject"
+						/>
+						<input
+							type="phone"
+							class="text-input phone-input"
+							placeholder="Phone"
+							name="phone"
+						/>
+						<textarea
+							class="text-input message-input"
+							placeholder="Enter Message"
+							name="message"
+						></textarea>
+						<div class="my-2">
+							<div data-netlify-recaptcha="true"></div>
+						</div>
+					</div>
+					<button class="btn" type="submit">Submit</button>
+				</form>
+			</div>
+		</section>
+
+		<section class="my-contact py-3">
+			<div class="container">
+				<div class="my-contact-info">
+					<div>
+						<h3 class="py-1"><i class="fas fa-envelope fa-3x"></i></h3>
+						<a
+							style="text-transform: lowercase"
+							href="mailto:gmark247@gmail.com"
+						>
+							gmark247@gmail.com
+						</a>
+					</div>
+					<div>
+						<h3 class="py-1"><i class="fas fa-mobile-alt fa-3x"></i></h3>
+						<a href="tel:+36 20 264 8027">
+							<i class="fas fa-phone"></i> +36 20 264 8027</a
+						>
+					</div>
+					<div>
+						<h3 class="py-1"><i class="fas fa-address-card fa-3x"></i></h3>
+						<a
+							href="https://www.google.hu/maps/place/Gy%C5%91r/@47.66909,17.3785017,10z/data=!3m1!4b1!4m5!3m4!1s0x476bbf87407ea035:0x400c4290c1e11e0!8m2!3d47.6874569!4d17.6503974"
+							target="_blank"
+						>
+							Hungary</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer class="footer py-2 bg-dark">
+			<div class="grid grid-3 container">
+				<div>
+					<h1>m. WebDev</h1>
+				</div>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="social">
+					<a href="https://github.com/gmqrk247" target="_blank"
+						><i class="fab fa-github fa-2x"></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/mark-gelencser-275080130/"
+						target="_blank"
+						><i class="fab fa-linkedin fa-2x"></i
+					></a>
+					<a href="https://twitter.com/gmark247"
+						><i class="fab fa-twitter fa-2x"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
