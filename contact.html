@@ -54,6 +54,7 @@
 							class="text-input name-input"
 							placeholder="Name"
 							name="name"
+							required required
 						/>
 						<input
 							type="text"
@@ -65,18 +66,19 @@
 							type="email"
 							class="text-input email-input"
 							placeholder="Email"
-							name="subject"
+							name="subject" required
 						/>
 						<input
 							type="phone"
 							class="text-input phone-input"
-							placeholder="Phone"
+							placeholder="Phone  (Optional)"
 							name="phone"
+							
 						/>
 						<textarea
 							class="text-input message-input"
 							placeholder="Enter Message"
-							name="message"
+							name="message" required
 						></textarea>
 						<div class="my-2">
 							<div data-netlify-recaptcha="true"></div>
